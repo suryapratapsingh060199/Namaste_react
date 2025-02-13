@@ -1,3 +1,50 @@
-#heading {
-    color: brown;
+.header{
+    background-color: grey;
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    width: 300px;
+    height: 100px;
+    padding: 5px;
+}
+.nav-items>ul{
+    display: flex;
+    font-size: 24px;
+    list-style-type: none;
+}
+.nav-items>ul>li{
+    margin: 10px;
+    padding: 10px;
+}
+.body{
+    margin: 10px;
+    padding: 10px;
+}
+.s{
+    font-size: 24px;
+}
+.res-card{
+    background-color: gray;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+}
+.abc{
+    margin: 5px;
+    width: 180px;
+    height:120px;
+}
+.res-card:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
 }
