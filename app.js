@@ -24,7 +24,7 @@ const RestaurantCard = ({resData}) => {
         <img className="abc" src="https://media.istockphoto.com/id/1829241109/photo/enjoying-a-brunch-together.jpg?s=1024x1024&w=is&k=20&c=QPHFTWoscwMSXOEGKoAKOjlCnMGszppFBrqQHdy4EGc="/>
         <h3>{resName}</h3>
         <h4>{cusines}</h4>
-        <h5>{rating}</h5>
+        <h5>{rating}stars</h5>
     </div>
 
 );
@@ -36,7 +36,7 @@ const resList = [
     {resName:"McDonald",cusines:"Burger",rating:4.5},
     {resName:"Meghana Foods",cusines:"South Indian",rating:4.0},
     {resName:"Apna Dhaba",cusines:"Biryani,Mutton",rating:4.6},
-    {resName:"Rollwal",cusines:"Egg Curry,Egg Roll",rating:4.2}
+    {resName:"Rollwala",cusines:"Egg Curry,Egg Roll",rating:4.2}
 ]
 
 const Body = () => (
