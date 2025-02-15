@@ -40,7 +40,7 @@
     height:120px;
 }
 .res-card:hover{
-    border: 1px solid black;
+    border: 2px solid brown;
     cursor: pointer;
 }
 .res-container{

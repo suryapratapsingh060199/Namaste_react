@@ -18,3 +18,32 @@
 -HTTPs
 -Tree Shaking - remove unused code
 -Different dev and prod bundles
+
+# Namaste Food
+-Header
+ Logo
+ Nav items
+  Home
+  About Us
+  Contact Us
+  Cart
+-Body
+ Search
+ Restaurant container
+  Restaurant card
+  Res-Name
+  Cuisines
+  Rating
+-Footer
+ Copyright
+ Links
+ Address
+
+# Two types of Export
+ -Default Export Type (Use if we have just exporting one from that page) 
+  Export default Name ;
+  Import Name from "./path";
+ -Named  Export Type (Use if we have more than one export is requrired from that page)
+  Export(before whom we want to export)
+  Import {Name} from "../path";
+ 
