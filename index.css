@@ -1,5 +1,5 @@
 .header{
-    background-color: grey;
+    background-color: rgb(246, 239, 239);
     margin: 2px;
     padding: 2px;
     border: 1px solid black;
@@ -8,7 +8,7 @@
     
 }
 .logo{
-    width: 300px;
+    width: 200px;
     height: 100px;
     padding: 5px;
 }
@@ -25,26 +25,58 @@
     margin: 10px;
     padding: 10px;
 }
-.s{
-    font-size: 24px;
+.search{
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    
 }
 .res-card{
-    background-color: gray;
-    width: 200px;
-    height: 300px;
+    background-color: rgb(237, 235, 235);
+    width: 300px;
+    height: 320px;
     text-align: center;
 }
-.abc{
+.res-logo{
     margin: 5px;
-    width: 180px;
-    height:120px;
+    width: 280px;
+    height:160px;
+    border-radius: 10px;
 }
 .res-card:hover{
-    border: 2px solid brown;
+    border: 2px solid rgb(20, 12, 12);
     cursor: pointer;
 }
 .res-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between ;
+    justify-content: space-evenly;
 }
+.login{
+    margin: 5px;
+    padding: 0 20px;
+    cursor: pointer;
+    font-size: 22px;
+}
+.shimmer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-cards {
+    margin: 20px;
+    width: 200px;
+    height: 300px;
+    background-color: rgb(237, 235, 235);
+}
+
+
+.filter-btn{
+    display: flex;
+}
+ .top-btn{
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+ }

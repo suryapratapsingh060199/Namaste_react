@@ -1,7 +1,13 @@
-const Header = () => (
+import { useState } from "react";
+
+const Header = () => {
+    
+    const [btnName,setBtnName] = useState("Login");
+
+    return(
     <div className="header">
         <div className="logo-container">
-            <img className="logo" src="https://www.shutterstock.com/shutterstock/photos/2234412247/display_1500/stock-photo-minsk-belarus-december-black-background-night-lots-of-hot-wings-or-strips-of-kfc-2234412247.jpg"/>
+            <img className="logo" src="https://upload.wikimedia.org/wikipedia/commons/1/13/Swiggy_logo.png"/>
         </div>
         <div className="nav-items">
             <ul>
@@ -9,10 +15,14 @@ const Header = () => (
                 <li>About Us</li>
                 <li>Contact Us</li>
                 <li>Cart</li>
+                <button className="login" onClick={() => {
+                    btnName === "Login" ? setBtnName ("Logout") : setBtnName ("Login") }}>
+                    {btnName}
+                </button> 
             </ul>
         </div>
     </div>
 );
-
+}
 
 export default Header;
