@@ -20,14 +20,16 @@
   "homepage": "https://github.com/suryapratapsingh060199/Namaste_react#readme",
   "devDependencies": {
     "parcel": "^2.13.3",
-    "process": "^0.11.10"
+    "postcss": "^8.5.3",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.1"
   },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.11.2"
   },
-  "browserlist": [
+  "browserslist": [
     "last 2 versions"
   ]
 }
