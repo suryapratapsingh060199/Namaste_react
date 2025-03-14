@@ -15,8 +15,6 @@ class About extends Component{
         //console.log("Parent Render");
         return (
             <div>
-                <h1>About</h1>
-                <h3>This is Namste Web Series.</h3>
                 <UserClass />
             </div>
         );

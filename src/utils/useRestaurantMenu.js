@@ -13,10 +13,8 @@ const useRestaurantMenu = (resId) => {
     useEffect(() => {
         fetchMenu();
     }, [resId]);
-
-    
-
-    
+  
     return resInfo;
 };
+
 export default useRestaurantMenu;
