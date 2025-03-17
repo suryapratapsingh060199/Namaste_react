@@ -47,3 +47,15 @@
   Export(before whom we want to export)
   Import {Name} from "../path";
  
+# Two types of routing in web apps 
+  -Server Side Routing
+  -Client Side Routing 
+
+# Redux Toolkit
+ - Install @reduxjs/toolkit and react-redux
+ - Build our store
+ - Connect our store to our app
+ - Slice (CartSlice)
+ - Dispatch (action)
+ - Reducer (function)
+ - Selector (subscribed)
