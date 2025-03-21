@@ -1,0 +1,83 @@
+{
+    "info": {
+        "id": "438435",
+        "name": "Burger King",
+        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/13/e4a37b54-f7b9-46d8-be6c-1dd140b1a50c_438435.jpg",
+        "locality": "Parsvnath Mall",
+        "areaName": "Mayur Vihar",
+        "costForTwo": "₹350 for two",
+        "cuisines": [
+            "Burgers",
+            "American"
+        ],
+        "avgRating": 4.3,
+        "parentId": "166",
+        "avgRatingString": "4.3",
+        "totalRatingsString": "8.2K+",
+        "sla": {
+            "deliveryTime": 28,
+            "lastMileTravel": 3.9,
+            "serviceability": "SERVICEABLE",
+            "slaString": "25-30 mins",
+            "lastMileTravelString": "3.9 km",
+            "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+            "nextCloseTime": "2025-03-21 05:00:00",
+            "opened": true
+        },
+        "badges": {
+            "imageBadges": [
+                {
+                    "imageId": "Rxawards/_CATEGORY-Burger.png",
+                    "description": "Delivery!"
+                }
+            ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+            "entityBadges": {
+                "imageBased": {
+                    "badgeObject": [
+                        {
+                            "attributes": {
+                                "description": "Delivery!",
+                                "imageId": "Rxawards/_CATEGORY-Burger.png"
+                            }
+                        }
+                    ]
+                },
+                "textBased": {},
+                "textExtendedBadges": {}
+            }
+        },
+        "aggregatedDiscountInfoV3": {
+            "header": "60% OFF",
+            "subHeader": "UPTO ₹120"
+        },
+        "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+                "lottie": {},
+                "video": {}
+            }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {},
+        "externalRatings": {
+            "aggregatedRating": {
+                "rating": "--"
+            }
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+    },
+    "analytics": {
+        "context": "seo-data-7bbe3676-5455-40c0-bdad-a3c9e56ab0ea"
+    },
+    "cta": {
+        "link": "https://www.swiggy.com/city/delhi/burger-king-parsvnath-mall-mayur-vihar-rest438435",
+        "type": "WEBLINK"
+    }
+}

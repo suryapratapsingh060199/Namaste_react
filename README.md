@@ -59,3 +59,20 @@
  - Dispatch (action)
  - Reducer (function)
  - Selector (subscribed)
+
+# Types of Testing(developer)
+ - Unit Testing
+ - Integration Testing
+ - End to End Testing 
+
+#  Setting up Testing in our app
+ - Install React Testing Library
+ - Install jest
+ - Install Babel dependencies
+ - Configure Babel
+ - Configure Parcel Config file to disable default Babel transpilation
+ - Jest configuration - (npx jest --init)
+ - Install jsdom library
+ - Install @babel/preset-react - to make JSX work in test cases
+ - Include @babel/preset-react inside my babel config
+ - npm i -D @testing-library/jest-dom

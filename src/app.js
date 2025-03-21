@@ -14,12 +14,12 @@ import { Provider } from "react-redux";
 import appStore from "./utils/appStore";
 import Cart from "./Components/Cart";
 
-
 const Grocery = lazy(() => import("./Components/Grocery"));
 
-
 const FoodApp = () => {
+
     const  [userName, setUserName] = useState();
+
     useEffect(() => {
         const data = {
             name : "Surya"
