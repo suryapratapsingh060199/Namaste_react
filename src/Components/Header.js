@@ -14,7 +14,7 @@ const Header = () => {
     return(
     <div className="flex justify-between bg-gray-200 border border-solid border-black shadow-lg m-1 p-1" >
         <div className="logo-container">
-            <img className="w-52 h-28 p-1" src="https://upload.wikimedia.org/wikipedia/commons/1/13/Swiggy_logo.png"/>
+            <img className="h-32 w-36 p-1 " src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQbGwam47ZNXoiRMw9cLWE33du7TUhVA11YppKSdpNt3n_kWzCQ"/>
         </div>
         <div className="nav-items">
             <ul className="flex text-xl p-4 m-4">
